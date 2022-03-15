@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 500px;
+  background-color: antiquewhite;
+  margin-bottom: 20px;
+}
+.container-name {
+  display: flex;
+}
+.container-name h1 {
+  padding-left: 20px;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.container-rewards-elements {
+  display: flex;
+  align-items: center;
+}
+.container-rewards-elements p:nth-child(2) {
+  padding-left: 40px;
+}
+
+.container-rewards-elements p:last-child {
+  padding-left: 40px;
+}
